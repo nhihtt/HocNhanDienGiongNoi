@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GoogleRecognitionWithoutDialogActivity">
+
+    <Button
+        android:id="@+id/btnNoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhấn vào đây để nhận dạng tiếng Việt"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kết quả"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lệnh"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text='Để đổi màu hãy nói "Đổi màu"+tên màu'
+        android:textSize="30sp" />
+</LinearLayout>

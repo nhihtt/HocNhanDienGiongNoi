@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnTaoTiengAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo từ tiếng anh ngẫu nhiên" />
+
+    <TextView
+        android:id="@+id/txtTuNgauNhien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Từ tiếng anh ngẫu nhiên ở đây" />
+
+    <Button
+        android:id="@+id/btnGiongNoi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhận dạng giọng nói C1" />
+
+    <TextView
+        android:id="@+id/txtSpeechToText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kết quả bạn nói tiếng anh ở đây" />
+
+    <Button
+        android:id="@+id/btnGiongNoi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhận dạng giọng nói với Google C2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
